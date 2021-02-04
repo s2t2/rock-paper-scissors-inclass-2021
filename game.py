@@ -18,7 +18,7 @@ print(f"You chose: {user_choice}")
 #
 # VALIDATE USER INPUT
 #
-# ... adapted from Kevin's solution during class
+# ... adapted from solutions shared in class by Kevin and Clyde
 
 options = ["rock", "paper", "scissors"]
 
