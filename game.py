@@ -11,6 +11,7 @@ print("-------------------")
 #
 
 user_choice = input("Please choose either 'rock', 'paper', or 'scissors':")
+user_choice = user_choice.lower() # do this conversion now
 
 print(f"You chose: {user_choice}")
 
@@ -21,7 +22,7 @@ print(f"You chose: {user_choice}")
 
 options = ["rock", "paper", "scissors"]
 
-if user_choice.lower() not in options:
+if user_choice not in options:
     print("OOPS, please choose a valid option and try again")
     exit()
 
